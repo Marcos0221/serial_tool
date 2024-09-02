@@ -66,5 +66,6 @@ void lcd_write_bus(uint8_t byte);
 void lcd_write_command(uint8_t cmd);
 void lcd_write_data8(uint8_t data);
 void lcd_write_data16(uint16_t data);
+void lcd_init();
 
 #endif
